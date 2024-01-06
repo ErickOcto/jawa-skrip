@@ -143,3 +143,20 @@
 // }else{
 //     console.log("No, It'Undefined");
 // }
+
+//Equality Operator
+
+// const age = '18';
+// const age2 = 18;
+// if(age === 18) console.log("Yout Just Became an Adult :) (strict)");
+
+// if (age === 18 || age2 === 18) console.log("Yout Just Became an Adult :D (loose)");
+
+// const favorite = Number(prompt("What's Your Favorite Number?"));
+
+// console.log(favorite);
+// console.log(typeof favorite);
+
+// if(favorite === 2){
+//     console.log("CooL! Something Error With Your Favorite Number");
+// }
