@@ -24,3 +24,26 @@
 // fruitProcessor(5, 1);
 // fruitProcessor(10, 10);
 //console.log(appleJuice);
+
+// function declaration and expression
+
+//function declaration
+// function calcAge1(birthYear){
+//     const age = 2037 - birthYear;
+//     return console.log(age);
+// }
+
+// calcAge1(2006);
+
+// //function expression
+// const calcAge2 = function (birthYear){
+//     return console.log(2037 - birthYear);
+// }
+
+// const calcAge3 = () => {
+//     rerwerower
+// }
+
+// calcAge2(2006);
+
+// console.log(calcAge1(2006),);
