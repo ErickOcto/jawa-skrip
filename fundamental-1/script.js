@@ -210,3 +210,17 @@
 //     default:
 //         console.log("Invalid day");
 // }
+
+// Statement and Expressions
+
+3 + 4
+1991
+true && false && !true
+
+if(23 > 10){
+    const str = '23 is bigger';
+}
+
+const me = 'Jonas';;
+console.log(`I'm ${2037 - 2006} years old ${me}`);
+
