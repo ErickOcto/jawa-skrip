@@ -187,4 +187,26 @@
 //     console.log('Someone else should drive....');
 // }
 
-//
+//Switch statement
+
+// const day = "T";
+
+// switch(day){
+//     case "Sunday":
+//         console.log("Sunday is happy day");
+//     break;
+//     case "Monday":
+//     case "Tuesday":
+//         console.log("Monday's and tuesday are unhappy day");
+//     break;
+//     case "Wednesday":
+//     case "Thursday":
+//         console.log("Thursday's and Wednesdays are labs day");
+//     break;
+//     case "Friday":
+//     case "Saturday":
+//         console.log("Nice!");
+//     break;
+//     default:
+//         console.log("Invalid day");
+// }
