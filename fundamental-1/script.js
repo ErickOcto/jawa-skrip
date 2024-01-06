@@ -37,36 +37,48 @@
 // console.log(typeof null);
 
 
-// Basic Operators
-const ageJonas = 2037 - 1991;
-const ageSarah = 2024 - 2005;
-console.log(ageJonas, ageSarah);
+// // Basic Operators
+// const ageJonas = 2037 - 1991;
+// const ageSarah = 2024 - 2005;
+// console.log(ageJonas, ageSarah);
 
-//To
+// //To
+// const now = 2024;
+// const ageAgus = now - 1991;
+// const ageShifa = now - 2005;
+// console.log(ageAgus, ageShifa);
+
+// //Case
+// console.log(ageJonas * 2, ageShifa / 10, 2 ** 3);
+
+// const firstName = 'Shifa Sharifah';
+// const lastName = 'Maulidah';
+// console.log(firstName + ' ' + lastName);
+
+// let x = 10 + 5;
+// x += 10; // x = x + 10;
+// x *= 4; // x =  x * 4;
+// x++;
+// x--;
+// console.log(x);
+
+// //comparison operator
+// console.log(ageJonas > ageSarah);
+// console.log(ageShifa >= 19);
+
+// const isFullAge = ageShifa >= 19;
+
+// console.log(now - 1991 > now - 2005);
+
 const now = 2024;
 const ageAgus = now - 1991;
 const ageShifa = now - 2005;
 console.log(ageAgus, ageShifa);
 
-//Case
-console.log(ageJonas * 2, ageShifa / 10, 2 ** 3);
-
-const firstName = 'Shifa Sharifah';
-const lastName = 'Maulidah';
-console.log(firstName + ' ' + lastName);
-
-let x = 10 + 5;
-x += 10; // x = x + 10;
-x *= 4; // x =  x * 4;
-x++;
-x--;
-console.log(x);
-
-//comparison operator
-console.log(ageJonas > ageSarah);
-console.log(ageShifa >= 19);
-
-const isFullAge = ageShifa >= 19;
-
 console.log(now - 1991 > now - 2005);
 
+let x, y;
+x = y = 25-10-5;
+
+const averageAge = (ageAgus + ageShifa) / 2
+console.log(x, y, averageAge);
