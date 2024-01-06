@@ -70,15 +70,30 @@
 
 // console.log(now - 1991 > now - 2005);
 
+// const now = 2024;
+// const ageAgus = now - 1991;
+// const ageShifa = now - 2005;
+// console.log(ageAgus, ageShifa);
+
+// console.log(now - 1991 > now - 2005);
+
+// let x, y;
+// x = y = 25-10-5;
+
+// const averageAge = (ageAgus + ageShifa) / 2
+// console.log(x, y, averageAge);
+
+
+// String and Template Literals
+const firstName = "Shifa Sharifah Maulida";
+const job = "Professional Programmer";
+const birthYear = 2005;
 const now = 2024;
-const ageAgus = now - 1991;
-const ageShifa = now - 2005;
-console.log(ageAgus, ageShifa);
 
-console.log(now - 1991 > now - 2005);
+const shifa = "Halo!, nama aku " + firstName + " dan aku ingin menjadi " + job + " diumurku yang ke-" + (now - birthYear) + " ini...";
 
-let x, y;
-x = y = 25-10-5;
+console.log(shifa);
 
-const averageAge = (ageAgus + ageShifa) / 2
-console.log(x, y, averageAge);
+const shifaNew = `Halo!, nama aku ${firstName} dan aku ingin menjadi ${job} diumurku yang ke-${(now - birthYear)} ini...`;
+
+console.log(shifaNew);
