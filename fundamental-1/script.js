@@ -172,17 +172,19 @@
 
 //Logical Operators
 
-const hasDriversLicenses = true;
-const hasGoodDivisions = true;
+// const hasDriversLicenses = true;
+// const hasGoodDivisions = true;
 
-const isTired = false;
+// const isTired = false;
 
-console.log(hasDriversLicenses && hasGoodDivisions);
-console.log(hasDriversLicenses || hasGoodDivisions);
-console.log(!hasDriversLicenses);
+// console.log(hasDriversLicenses && hasGoodDivisions);
+// console.log(hasDriversLicenses || hasGoodDivisions);
+// console.log(!hasDriversLicenses);
 
-if(hasDriversLicenses && hasGoodDivisions && !isTired){
-    console.log('Sarah Is Able to Drive');
-}else{
-    console.log('Someone else should drive....');
-}
+// if(hasDriversLicenses && hasGoodDivisions && !isTired){
+//     console.log('Sarah Is Able to Drive');
+// }else{
+//     console.log('Someone else should drive....');
+// }
+
+//
