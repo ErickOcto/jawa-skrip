@@ -160,3 +160,12 @@
 // if(favorite === 2){
 //     console.log("CooL! Something Error With Your Favorite Number");
 // }
+
+// Boolean Logic
+
+// const colorFav = "Blue";
+// const nameFav = "Stephan";
+
+// if(colorFav === "Blue" && nameFav === "Stephan") console.log("CooL! Something Error With You");
+
+// if(colorFav === "Blue" || nameFav === "Beddu") console.log("NAH!");
