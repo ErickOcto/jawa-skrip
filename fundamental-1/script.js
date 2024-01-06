@@ -100,12 +100,23 @@
 
 
 // IF ELSE Statement
-const tall = 150;
-const isTallEnough = tall >= 170;
-const name = "Shifa";
+// const tall = 150;
+// const isTallEnough = tall >= 170;
+// const name = "Shifa";
 
-if(isTallEnough){
-    console.log('Cukup Tinggi');
-}else{
-    console.log(`Belum Cukup Tinggi, ${name} harus tumbuh sekitar ${170 - tall}cm`);
-}
+// if(isTallEnough){
+//     console.log('Cukup Tinggi');
+// }else{
+//     console.log(`Belum Cukup Tinggi, ${name} harus tumbuh sekitar ${170 - tall}cm`);
+// }
+
+// Type Conversion and Coercion
+
+const inputYear = '1991';
+console.log(Number(inputYear), inputYear);
+console.log(Number(inputYear) + 18)
+
+console.log(Number('JONAS'));
+console.log(typeof NaN);
+
+console.log(String(23));
