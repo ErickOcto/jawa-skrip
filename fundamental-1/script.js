@@ -169,3 +169,20 @@
 // if(colorFav === "Blue" && nameFav === "Stephan") console.log("CooL! Something Error With You");
 
 // if(colorFav === "Blue" || nameFav === "Beddu") console.log("NAH!");
+
+//Logical Operators
+
+const hasDriversLicenses = true;
+const hasGoodDivisions = true;
+
+const isTired = false;
+
+console.log(hasDriversLicenses && hasGoodDivisions);
+console.log(hasDriversLicenses || hasGoodDivisions);
+console.log(!hasDriversLicenses);
+
+if(hasDriversLicenses && hasGoodDivisions && !isTired){
+    console.log('Sarah Is Able to Drive');
+}else{
+    console.log('Someone else should drive....');
+}
