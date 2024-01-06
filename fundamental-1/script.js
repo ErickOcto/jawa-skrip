@@ -224,3 +224,11 @@ if(23 > 10){
 const me = 'Jonas';;
 console.log(`I'm ${2037 - 2006} years old ${me}`);
 
+// Ternary Operators
+
+me === 'Sam' ? console.log('TRUE') : console.log('FALSE')
+
+let age = 19
+const drink = age >= 10 ? 'true' : 'false';
+
+console.log(drink);
