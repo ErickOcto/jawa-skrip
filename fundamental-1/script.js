@@ -85,15 +85,27 @@
 
 
 // String and Template Literals
-const firstName = "Shifa Sharifah Maulida";
-const job = "Professional Programmer";
-const birthYear = 2005;
-const now = 2024;
+// const firstName = "Shifa Sharifah Maulida";
+// const job = "Professional Programmer";
+// const birthYear = 2005;
+// const now = 2024;
 
-const shifa = "Halo!, nama aku " + firstName + " dan aku ingin menjadi " + job + " diumurku yang ke-" + (now - birthYear) + " ini...";
+// const shifa = "Halo!, nama aku " + firstName + " dan aku ingin menjadi " + job + " diumurku yang ke-" + (now - birthYear) + " ini...";
 
-console.log(shifa);
+// console.log(shifa);
 
-const shifaNew = `Halo!, nama aku ${firstName} dan aku ingin menjadi ${job} diumurku yang ke-${(now - birthYear)} ini...`;
+// const shifaNew = `Halo!, nama aku ${firstName} dan aku ingin menjadi ${job} diumurku yang ke-${(now - birthYear)} ini...`;
 
-console.log(shifaNew);
+// console.log(shifaNew);
+
+
+// IF ELSE Statement
+const tall = 150;
+const isTallEnough = tall >= 170;
+const name = "Shifa";
+
+if(isTallEnough){
+    console.log('Cukup Tinggi');
+}else{
+    console.log(`Belum Cukup Tinggi, ${name} harus tumbuh sekitar ${170 - tall}cm`);
+}
