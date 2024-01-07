@@ -78,3 +78,38 @@
 
 // console.log(fruitProcessor(2,4));
 
+// Arrays
+// const friend1 = 'Michael';
+// const friend2 = 'Steven';
+// const friend3 = 'Peter';
+
+// const friends = ['Michael', 'Steven', 'Peter'];
+// console.log(friends);
+
+// console.log(friends[0]);
+// console.log(friends.length);
+// console.log(friends[friends.length - 1]);
+
+// friends[2] = 'Jay';
+// console.log(friends[2]);
+
+// const firstName = 'Jonas';
+// const jonas = [firstName, 'October', 2037 - 1991, 'teacher', friends];
+
+// console.log(jonas);
+// console.log(jonas.length);
+
+
+// function calcAge1(birthYear){
+//      return 2037 - birthYear;
+// }
+
+// const years = [1990, 1967, 2002, 2005, 2010, 2018];
+
+// const age1 = calcAge1(years[0]);
+// const age2 = calcAge1(years[1]);
+// const age3 = calcAge1(years[3]);
+// console.log(age1, age2, age3);
+
+// const ages = [age1, age2, age3];
+// console.log(ages);

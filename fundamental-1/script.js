@@ -213,22 +213,22 @@
 
 // Statement and Expressions
 
-3 + 4
-1991
-true && false && !true
+// 3 + 4
+// 1991
+// true && false && !true
 
-if(23 > 10){
-    const str = '23 is bigger';
-}
+// if(23 > 10){
+//     const str = '23 is bigger';
+// }
 
-const me = 'Jonas';;
-console.log(`I'm ${2037 - 2006} years old ${me}`);
+// const me = 'Jonas';;
+// console.log(`I'm ${2037 - 2006} years old ${me}`);
 
-// Ternary Operators
+// // Ternary Operators
 
-me === 'Sam' ? console.log('TRUE') : console.log('FALSE')
+// me === 'Sam' ? console.log('TRUE') : console.log('FALSE')
 
-let age = 19
-const drink = age >= 10 ? 'true' : 'false';
+// let age = 19
+// const drink = age >= 10 ? 'true' : 'false';
 
-console.log(drink);
+// console.log(drink);
