@@ -113,3 +113,20 @@
 
 // const ages = [age1, age2, age3];
 // console.log(ages);
+
+// Basic Arrays Operators
+
+const friends = ['Michael', 'Steven', 'Peter'];
+
+//add elements to friends
+friends.push('Jay');
+console.log(friends);
+friends.unshift('John');
+console.log(friends);
+
+//Remove elements to friends
+friends.pop(); //Last
+friends.shift() //first
+console.log(friends);
+
+console.log(friends.indexOf('Steven'));
