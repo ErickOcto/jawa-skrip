@@ -133,18 +133,41 @@
 
 //intro to object
 
-const jonasArrays = [
-    'Jonas',
-    'Teacher',
-    'Gather',
-    2037 - 1991,
-    ['Michael', 'Peter', 'Steven']
-];
+// const jonasArrays = [
+//     'Jonas',
+//     'Teacher',
+//     'Gather',
+//     2037 - 1991,
+//     ['Michael', 'Peter', 'Steven']
+// ];
 
-const jonas = {
-    firstName: 'Jonas',
-    lastName: 'Salamander',
-    age: 2037 - 1991,
-    job: 'teacher',
-    friends: ['Michael', 'Steven', 'Peter'],
-};
+// const jonas = {
+//     firstName: 'Ifa',
+//     lastName: 'Smith',
+//     age: 2037 - 1991,
+//     job: 'teacher',
+//     friends: ['Erick', 'Steven', 'Peter'],
+// };
+
+// console.log(jonas);
+// console.log(jonas['firstName']);
+
+// const nameKey = 'Name';
+// console.log(jonas['first' + nameKey]);
+// console.log(jonas["last" + nameKey]);
+
+// const interestedIn = prompt('What do you to know about Ifa? Choose between firstName, lastName, age, job, friends');
+
+// console.log(jonas[interestedIn]);
+
+// if(jonas[interestedIn]){
+// alert(`${jonas.firstName} ${interestedIn} is ${jonas[interestedIn]}`);
+// }else{
+// alert('Ups! Something Went Wrong, Please check again');
+// }
+
+// jonas.location = 'Portugal';
+// jonas['hobby'] = 'Gaming';
+// console.log(jonas);
+
+// console.log(`${jonas.firstName} has friends called ${jonas.friends[0]}`)
