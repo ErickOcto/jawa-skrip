@@ -173,36 +173,36 @@
 // console.log(`${jonas.firstName} has friends called ${jonas.friends[0]}`)
 
 // object methods
-const jonas = {
-  firstName: "Ifa",
-  lastName: "Smith",
-  birthYear: 1991,
-  job: "teacher",
-  friends: ["Erick", "Steven", "Peter"],
-  hasDriversLicense: false,
+// const jonas = {
+//   firstName: "Ifa",
+//   lastName: "Smith",
+//   birthYear: 1991,
+//   job: "teacher",
+//   friends: ["Erick", "Steven", "Peter"],
+//   hasDriversLicense: false,
 
-  // calcAge: function(){
-  //     return 2037 - this.birthYear;
-  // }
+//   // calcAge: function(){
+//   //     return 2037 - this.birthYear;
+//   // }
 
-  calcAge: function(){
-    this.age = 2037 - this.birthYear;
-      return this.age;
-  },
+//   calcAge: function(){
+//     this.age = 2037 - this.birthYear;
+//       return this.age;
+//   },
 
-  getSummary: function(){
-    console.log(`${this.firstName} is a ${this.calcAge()} years old ${this.job}, and he has ${this.hasDriversLicense ? 'a' : 'no'} driver license`)
-  }
-};
+//   getSummary: function(){
+//     console.log(`${this.firstName} is a ${this.calcAge()} years old ${this.job}, and he has ${this.hasDriversLicense ? 'a' : 'no'} driver license`)
+//   }
+// };
 
-console.log(jonas.calcAge());
+// console.log(jonas.calcAge());
 
-console.log(jonas.age);
+// console.log(jonas.age);
 
 //Challenge methods
 //Jonas is a 46 years old teacher, and he has a driver license
 
-console.log(jonas.getSummary());
+// console.log(jonas.getSummary());
 
 
 // if(jonas.hasDriversLicense){
@@ -211,3 +211,9 @@ console.log(jonas.getSummary());
 //     console.log(
 //       `${jonas.firstName} is a ${jonas.age} years old ${jonas.job}, and he has no driver license`);
 // }
+
+//FOR Loop Iteration
+
+for(let i = 0; i < 10; i++) {
+console.log(i);
+}
