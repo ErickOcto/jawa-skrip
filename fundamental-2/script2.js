@@ -214,6 +214,48 @@
 
 //FOR Loop Iteration
 
-for(let i = 0; i < 10; i++) {
-console.log(i);
-}
+// for(let i = 0; i < 10; i++) {
+// console.log(i);
+// }
+
+//Looping Arrays
+
+// const jonasArrays = [
+//     'Jonas',
+//     'Teacher',
+//     'Gather',
+//     2037 - 1991,
+//     ['Michael', 'Peter', 'Steven']
+// ];
+
+// const users = {
+//   0: {
+//     firstName: "Erick",
+//     lastName: "Smith",
+//     age: 17,
+//     status: true,
+//   },
+//   1: {
+//     firstName: "Ifa",
+//     lastName: "Sharifah",
+//     age: 17,
+//     status: true,
+//   },
+//   2: {
+//     firstName: "Jonas",
+//     lastName: "Thompson",
+//     age: 17,
+//     status: true,
+//   },
+//   3: {
+//     firstName: "Will",
+//     lastName: "Smith",
+//     age: 17,
+//     status: true,
+//   },
+// };
+
+// for(let i = 0; i < 4; i++) {
+//     console.log(users[i].firstName, users[i].lastName);
+// }
+// console.log(users);
