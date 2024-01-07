@@ -116,17 +116,35 @@
 
 // Basic Arrays Operators
 
-const friends = ['Michael', 'Steven', 'Peter'];
+// const friends = ['Michael', 'Steven', 'Peter'];
 
-//add elements to friends
-friends.push('Jay');
-console.log(friends);
-friends.unshift('John');
-console.log(friends);
+// //add elements to friends
+// friends.push('Jay');
+// console.log(friends);
+// friends.unshift('John');
+// console.log(friends);
 
-//Remove elements to friends
-friends.pop(); //Last
-friends.shift() //first
-console.log(friends);
+// //Remove elements to friends
+// friends.pop(); //Last
+// friends.shift() //first
+// console.log(friends);
 
-console.log(friends.indexOf('Steven'));
+// console.log(friends.indexOf('Steven'));
+
+//intro to object
+
+const jonasArrays = [
+    'Jonas',
+    'Teacher',
+    'Gather',
+    2037 - 1991,
+    ['Michael', 'Peter', 'Steven']
+];
+
+const jonas = {
+    firstName: 'Jonas',
+    lastName: 'Salamander',
+    age: 2037 - 1991,
+    job: 'teacher',
+    friends: ['Michael', 'Steven', 'Peter'],
+};
